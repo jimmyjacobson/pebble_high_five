@@ -1,0 +1,18 @@
+{
+  "uuid": "f2ead054-d967-4508-87fd-3e6181abc78c",
+  "shortName": "High Five",
+  "longName": "Quantified High Five",
+  "companyName": "Jimmy Jacobson",
+  "capabilities": [ "configurable" ],
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

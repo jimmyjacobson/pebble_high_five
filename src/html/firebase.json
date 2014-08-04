@@ -1,0 +1,9 @@
+{
+  "firebase": "pebble-high-five",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

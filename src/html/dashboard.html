@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>   
+<script src="https://cdn.firebase.com/js/client/1.0.18/firebase.js"></script>
+<script>
+$(document).ready(function() {
+  var ref = new Firebase("https://pebble-high-five.firebaseio.com/");
+    // Attach an asynchronous callback to read the data at our posts reference
+  ref.on('value', function (snapshot) {
+    console.log(snapshot.val());
+  }, function (errorObject) {
+    console.log('The read failed: ' + errorObject.code);
+  });
+});
+
+</script>
+</head>
+</html>
